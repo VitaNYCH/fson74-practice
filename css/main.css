@@ -1,3 +1,182 @@
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+}
+
 .page {
   font-family: "Open sans", sans-serif;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  left: 31px;
+  top: 1053px;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
+  background: #E5E5E5;
+}
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+  .contact {
+    display: none;
+  }
+  .btn__header {
+    display: none;
+  }
+}
+.hero {
+  background-color: rgb(113, 98, 98);
+}
+
+.hero__sub-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero__title {
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.hero__text {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.about__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about__title {
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.about__description {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about__specification {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+@media screen and (max-width: 480px) {
+  .about__list {
+    display: none;
+  }
+}
+.prices {
+  background-color: rgb(113, 98, 98);
+}
+
+.prices__text {
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices__title {
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.prices__element,
+.prices__sum {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.benefits__pretitle {
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.benefits__title {
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits__after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.benefits__text {
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
+}
+
+span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.barbers__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.barbers__title {
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
 }/*# sourceMappingURL=main.css.map */

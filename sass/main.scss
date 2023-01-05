@@ -1,1 +1,14 @@
-@import "./page";
+
+@import "./base/common";
+@import "./base/page";
+@import "./components/buttons";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/prices";
+@import "./layout/benefits";
+@import "./layout/barbers";
+@import "./layout/gallery";
+@import "./layout/form";
+@import "./layout/contacts";
+@import "./layout/footer";
