@@ -16,6 +16,10 @@
   font-family: "Open sans", sans-serif;
 }
 
+.container {
+  padding: 31px 40px;
+}
+
 .button {
   width: 160px;
   height: 40px;
@@ -178,5 +182,69 @@ span {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.gallery__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.form__titleform__title {
+  font-size: 42px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.contacts {
+  background-color: rgb(113, 98, 98);
+}
+
+.contacts__title {
+  font-size: 42px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.contacts__link {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.contacts__suptitle {
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contacts__schedule {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.footer__copyright {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9DA4BD;
+}
+
+.footer__link {
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
   color: #303030;
 }/*# sourceMappingURL=main.css.map */
